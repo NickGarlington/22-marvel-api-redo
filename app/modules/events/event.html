@@ -1,0 +1,21 @@
+<div class="event">
+
+  <div class="title">{{eventCtrl.title}}</div>
+  <div class="description">{{eventCtrl.description}}</div>
+  <img src="{{eventCtrl.image}}">
+
+  <div ng-repeat="character in eventCtrl.characters">
+    <a ui-sref="characters({ name: character.name })">
+      <h2>{{ character.name }}</h2>
+    </a>
+
+  </div>
+
+
+
+
+
+
+
+
+</div>

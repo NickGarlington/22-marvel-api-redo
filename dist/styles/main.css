@@ -1,62 +1,47 @@
-
-
-
 .column1 {
-  height:500px;
+  height: 500px;
   width: 300px;
   margin: 0;
-  float: left;
-}
+  float: left; }
 
 .column2 {
   width: 750px;
   height: 1000px;
   float: left;
-  margin-left: 100px;
-}
-
+  margin-left: 100px; }
 
 img {
   width: 200px;
   height: 200px;
-  display: inline-block;
-}
+  display: inline-block; }
 
 header {
   width: 1250px;
   height: 100px;
   background-color: #3d395b;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .all {
   margin: 0 auto;
-  width: 1250px;
-}
+  width: 1250px; }
 
 .event {
   float: left;
-  width: 250px;
-}
+  width: 250px; }
 
 .event img {
   width: 100px;
-  height: 100px;
-}
+  height: 100px; }
 
 h2 {
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .column1 img {
   margin-left: 60px;
-  margin-top: -60px;
-}
+  margin-top: -60px; }
 
 h1 {
-  margin-left: 60px;
-}
+  margin-left: 60px; }
 
 p {
-  margin-left: 60px;
-}
+  margin-left: 60px; }
