@@ -10,8 +10,9 @@
 
     <div class="column2">
       <div class="event" ng-repeat="event in charCtrl.events">
-        <a ui-sref="events({id: event.id})"><img ng-src="{{ charCtrl.eventImage(event) }}"></a>
+        <a ui-sref="events({id: event.id})"><img ng-src="{{ charCtrl.eventImage(event) }}">
         <h2>{{ event.title }}</h2>
+      </a>
       </div>
 
     </div>

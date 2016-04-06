@@ -1,21 +1,21 @@
-<div class="event">
-
-  <div class="title">{{eventCtrl.title}}</div>
-  <div class="description">{{eventCtrl.description}}</div>
-  <img src="{{eventCtrl.image}}">
-
-  <div ng-repeat="character in eventCtrl.characters">
-    <a ui-sref="characters({ name: character.name })">
-      <h2>{{ character.name }}</h2>
-    </a>
-
+<div class="event-header"></div>
+<div class="event-column">
+  <div class="event">
+    <img src="{{eventCtrl.image}}">
+    <div class="title">{{eventCtrl.title}}</div>
+    <div class="description">{{eventCtrl.description}}</div>
   </div>
 
 
-
-
-
-
-
+  <div class="event-holder">
+    <div class="character-header">
+      Characters
+    </div>
+    <div ng-repeat="character in eventCtrl.characters">
+      <a ui-sref="characters({ name: character.name })">
+        <h2>{{ character.name }}</h2>
+      </a>
+    </div>
+  </div>
 
 </div>
